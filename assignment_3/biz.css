@@ -1,0 +1,36 @@
+.center {
+    text-align: center;
+}
+
+.center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.midcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+ul {
+    color: black;
+    list-style-type: square;
+    font-size: 25px;
+}
+
+.heading {
+    position: absolute;
+    text-align: center;
+    right: 50%;
+    transform: translateX(50%);
+    text-decoration: underline;
+}

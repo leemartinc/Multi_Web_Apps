@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* Float Elements 
+---------------------------------*/
+
+.fl-lt {
+    float: left;
+}
+
+.fl-rt {
+    float: right;
+}
+
+/* Backgrounds
+---------------------------------*/
+
+.main-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -777;
+    background-size: cover;
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: 100vw;
+    height: 100vh;
+
+    /* Center the video */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+/*.header {
+    min-height: 30rem;
+    text-align: center;
+    position: relative;
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+/* Manipulate
+---------------------------------*/
+
+.center {
+    text-align: center;
+}
+
+.center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.midcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Primary Styles
+---------------------------------*/
+
+body {
+    background: url(../vid/motion3.gif) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+    margin: 0;
+}
+
+h2 {
+    font-size: 34px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 16px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+p {
+    line-height: 24px;
+    margin: 0;
+    color: white;
+}
+
+/* Sections
+---------------------------------*/
+
+/*main*/
+
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+.assn {
+    padding: 10px;
+    float: right;
+}
+
+.assn-div {
+    width: 300px;
+    height: 600px;
+    max-height: 80vh;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    clear: both;
+}
+
+.assn-div a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+
+}
+
+.assn-div a:hover {
+    font-size: 30px;
+    color: #0087cc;
+    text-decoration: none;
+    padding: 7px;
+
+}
+
+
+/* assn 6
+---------------------------------*/
+
+.control-holder {
+    top: 0;
+    height: 70px;
+    background-color: darkslategray;
+    z-index: 999;
+}
+
+.controller_plus {
+    background: url("../img/plus2.png");
+    border-color: darkslategray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    z-index: 21;
+}
+
+.controller_plus:hover {
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .3);
+    cursor: pointer;
+
+}
+
+.controller_minus {
+    background: url("../img/minus2.png");
+    border-color: darkslategray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    width: 33px;
+    height: 33px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    z-index: 21;
+}
+
+.controller_minus:hover {
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .3);
+    cursor: pointer;
+
+
+}
+
+
+/* Tic-Tac-Toe
+---------------------------------*/
+
+.ttt {
+    font-size: 50px;
+}

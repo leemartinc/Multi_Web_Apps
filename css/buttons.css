@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* Buttons
+---------------------------------*/
+
+.button {
+    padding: 15px 35px;
+    background: #3737e5;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border-radius: 6px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .3), inset 0px 0px 0px rgba(255, 255, 255, 0.07);
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #fff !important;
+    background: #35a835;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, .3), inset 7px 9px 0px rgba(255, 255, 255, 0.07);
+}
+
+.button:active,
+.link:focus {
+    /*background: #35a835;*/
+    text-decoration: none;
+    /*color:#222222 !important;*/
+}
+
+
+.button2 {
+    padding: 15px 35px;
+    background: #0087cc;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border-radius: 6px;
+    border-color: #0087cc;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .3), inset 0px 0px 0px rgba(255, 255, 255, 0.07);
+    text-decoration: none;
+
+}
+
+.button2:hover {
+    text-decoration: none;
+    left: 50%;
+    color: #fff !important;
+    border-color: #35a835;
+    background: #35a835;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, .3), inset 7px 9px 0px rgba(255, 255, 255, 0.07);
+}
+
+.button2:active,
+.link:focus {
+    /*background: #35a835;*/
+    text-decoration: none;
+    /*color:#222222 !important;*/
+}
+
+.button3 {
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #006599;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+
+}
+
+.button3:hover {
+    border: 0;
+    background: green;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 darkgreen;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+}
+
+.button3:active,
+.link:focus {
+    /*background: #35a835;*/
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+    /*color:#222222 !important;*/
+}

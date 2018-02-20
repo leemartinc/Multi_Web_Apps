@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<?xml-stylesheet type="text/css" href="xml-style.css"?>
+    <billboardTop5>
+        <captions>
+            Billboards top 5 songs
+        </captions>
+        <header>
+            <h1>Rank</h1>
+            <h2>Title</h2>
+            <h3>Artist</h3>
+            <h4>Album</h4>
+            <h5>Last Week</h5>
+        </header>
+        <song>
+            <rank>1</rank>
+            <title>God's Plan</title>
+            <artist>Drake</artist>
+            <album>Scary Hours</album>
+            <lastWeek>1</lastWeek>
+        </song>
+        <song>
+            <rank>2</rank>
+            <title>Perfect</title>
+            <artist>Ed Sheeran</artist>
+            <album>Divide</album>
+            <lastWeek>2</lastWeek>
+        </song>
+        <song>
+            <rank>3</rank>
+            <title>Finesse</title>
+            <artist>Bruno Mars and Cardi B</artist>
+            <album>24K magic</album>
+            <lastWeek>3</lastWeek>
+        </song>
+        <song>
+            <rank>4</rank>
+            <title>Havana</title>
+            <artist>Camila Cabello</artist>
+            <album>Camila</album>
+            <lastWeek>4</lastWeek>
+        </song>
+        <song>
+            <rank>5</rank>
+            <title>Rockstar</title>
+            <artist>Post Malone</artist>
+            <album>Beerbongs and Bentleys</album>
+            <lastWeek>5</lastWeek>
+        </song>
+    </billboardTop5>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Hello World</title>
+    <!-- JavaScript INCOMING -->
+    <script type="text/javascript" src=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- CSS INCOMING -->
+    <link href="css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/hamburg.css" rel="stylesheet" type="text/css" />
+    <link href="css/assn2.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Denk+One);
+
+    @dark-gray: #212121;
+
+    255: 255;
+    0: 0;
+    0: 0;
+
+
+
+    body {
+        background-color: @dark-gray;
+    }
+
+    h1 {
+        color: transparent;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        font-family: 'Denk One', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 3em;
+
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        margin-left: -180px;
+
+        -webkit-animation: horror-animation 5s infinite;
+        -moz-animation: horror-animation 5s infinite;
+        -o-animation: horror-animation 5s infinite;
+        animation: horror-animation 5s infinite;
+    }
+
+    @-webkit-keyframes horror-animation {
+        .mixi-frames;
+    }
+
+    @-moz-keyframes horror-animation {
+        .mixi-frames;
+    }
+
+    @-o-keyframes horror-animation {
+        .mixi-frames;
+    }
+
+    @keyframes horror-animation {
+        0% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+            left: 51%;
+            top: 36%;
+        }
+        5% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            left: 50%;
+            top: 35%;
+        }
+        10% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+            left: 49%;
+            top: 34%;
+        }
+        15% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 50%;
+            top: 35%;
+        }
+        16% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        17% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 50%;
+        }
+        20% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            left: 49%
+        }
+        25% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            left: 49%
+        }
+        30% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+            left: 50%
+        }
+        35% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+            left: 50%
+        }
+        36% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        37% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+            left: 50%
+        }
+        40% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.9);
+            left: 51%
+        }
+        45% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+            left: 51%
+        }
+        50% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+            left: 51%
+        }
+        55% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            left: 50%
+        }
+        56% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        57% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            left: 52%
+        }
+        60% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            left: 50%
+        }
+        65% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 50%
+        }
+        70% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+            left: 49%
+        }
+        75% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            left: 49%
+        }
+        76% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        77% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            left: 49%
+        }
+        80% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.1);
+            left: 49%
+        }
+        85% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+            left: 51%
+        }
+        86% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        87% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+            left: 51%
+        }
+        90% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+            left: 51%
+        }
+        95% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 51%
+        }
+        100% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            left: 50%
+        }
+    }
+
+    .mixi-frames () {
+        0% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+            left: 51%;
+            top: 36%;
+        }
+        5% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            left: 50%;
+            top: 35%;
+        }
+        10% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+            left: 49%;
+            top: 34%;
+        }
+        15% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 50%;
+            top: 35%;
+        }
+        16% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        17% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 50%;
+        }
+        20% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            left: 49%
+        }
+        25% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            left: 49%
+        }
+        30% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+            left: 50%
+        }
+        35% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+            left: 50%
+        }
+        36% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        37% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+            left: 50%
+        }
+        40% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.9);
+            left: 51%
+        }
+        45% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+            left: 51%
+        }
+        50% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+            left: 51%
+        }
+        55% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            left: 50%
+        }
+        56% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        57% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            left: 52%
+        }
+        60% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            left: 50%
+        }
+        65% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 50%
+        }
+        70% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+            left: 49%
+        }
+        75% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            left: 49%
+        }
+        76% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        77% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            left: 49%
+        }
+        80% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.1);
+            left: 49%
+        }
+        85% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+            left: 51%
+        }
+        86% {
+            text-shadow: 0 0 5px @dark-gray;
+            left: 50%
+        }
+        87% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+            left: 51%
+        }
+        90% {
+            text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+            left: 51%
+        }
+        95% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            left: 51%
+        }
+        100% {
+            text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            left: 50%
+        }
+    }
+</style>
+
+
+<body>
+    <h1>THRILLER</h1>
+
+</body>
+
+</html>
