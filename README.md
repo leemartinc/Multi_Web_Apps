@@ -98,7 +98,7 @@
             * One to increase the number of columns
             * One to decrease the number of columns
 
-## Assignment 7: XML Web Page, Due 2-21-2018
+## Assignment 7: XML Web Page
     * Create an XML file based on the data in a table
     * Apply a style sheet in CSS to this XML file
         * It should look like a table
