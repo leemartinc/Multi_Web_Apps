@@ -1,20 +1,20 @@
-Assignments Description
+# Assignments Description
 
-Assignment 1:
+## Assignment 1:
     Create A Hello World Page - Due 1-22-18 at Midnight (updated)
-        Log into your account on the Codd server
-            See instructions on the Servers Tab page
-            Change directory to public_html (create this directory if it does not exist)
-        Create an HTML document
-            Name it index.html
-            It should have a heading with the course name or number
-            Insert a paragraph with your name
-        The document should be XHTMLcomplient
-            include a validation link at the bottom of the page
-            (Might Not Work Due to Certificate) 
+        * Log into your account on the Codd server
+            * See instructions on the Servers Tab page
+            * Change directory to public_html (create this directory if it does not exist)
+        * Create an HTML document
+            * Name it index.html
+            * It should have a heading with the course name or number
+            * Insert a paragraph with your name
+        * The document should be XHTMLcomplient
+            * include a validation link at the bottom of the page
+            * (Might Not Work Due to Certificate) 
 
 
-Assignment 2: 
+# Assignment 2: 
     Form 1 (from slides)-Due 1-29-2018
         Write 2 XHTML Documents with the following
             Your name or campus ID in the title
