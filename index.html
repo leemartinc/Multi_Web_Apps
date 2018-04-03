@@ -19,43 +19,38 @@
 <body>
     <div class="main">
 
-        <div class="assn animated bounceInRight delay-02s">
 
-            <div class="container-menu fl-rt animated fadeInDown delay-07s" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-            <script type="text/javascript">
-                function myFunction(x) {
-                    x.classList.toggle("change");
-                    var x = document.getElementById("assignments");
-                    if (x.style.display === "none") {
-                        x.style.display = "block";
-                        x.classList.add = "fadeInRight";
-                    } else {
-                        x.style.display = "none";
-                    }
-                }
 
-            </script>
-
-            <h2 class="fl-rt" style="padding-right: 20px;">Assignments</h2>
-
-            <div class="assn-div animated fadeInRight delay-02s" style="display: none;" id="assignments">
-                <ul style="color:white; list-style-type: square; font-size:25px;">
-                    <li><a href="assignment_2/submitassn2login.html">Assignment 2</a></li>
-                    <li><a href="assignment_3/assn3-main.html">Assignment 3</a></li>
-                    <li><a href="assignment_4/assn4.html">Assignment 4</a></li>
-                    <li><a href="assignment_5/assn5-main.html">Assignment 5</a></li>
-                    <li><a href="assignment_6/assn6-main.html">Assignment 6</a></li>
-                    <li><a href="assignment_7/assn7.xml">Assignment 7</a></li>
-                    <li><a href="project_1/proj1.html">Project 1</a></li>
-                    <li><a href="assignment_8/assn8-main.html">Assignment 8</a></li>
-                </ul>
-            </div>
-
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul style="color:white; list-style-type: square; font-size:25px;">
+                <li><a href="assignment_2/submitassn2login.html">Assignment 2</a></li>
+                <li><a href="assignment_3/assn3-main.html">Assignment 3</a></li>
+                <li><a href="assignment_4/assn4.html">Assignment 4</a></li>
+                <li><a href="assignment_5/assn5-main.html">Assignment 5</a></li>
+                <li><a href="assignment_6/assn6-main.html">Assignment 6</a></li>
+                <li><a href="assignment_7/assn7.xml">Assignment 7</a></li>
+                <li><a href="project_1/proj1.html">Project 1</a></li>
+                <li><a href="assignment_8/assn8-main.html">Assignment 8</a></li>
+                <li><a href="project_2/e_library/login.php">Project 2</a></li>
+                <li><a href="assignment_9/assn9-main.php">Assignment 9</a></li>
+                <li><a href="assignment_10/assn5main.html">Assignment 10</a></li>
+            </ul>
         </div>
+
+        <div class="assn animated bounceInRight delay-02s">
+            <span class="fl-rt" style="font-size:30px;cursor:pointer;color: aliceblue;" onclick="openNav()">&#9776; Assignments</span> </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "260px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+
+        </script>
 
 
         <!--Background
