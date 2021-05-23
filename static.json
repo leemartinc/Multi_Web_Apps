@@ -3,11 +3,5 @@
     "clean_urls": false,
     "routes": {
       "/**": "index.html"
-    },
-    "redirects": {
-      "/": {
-        "url": "/index.html",
-        "status": 302
-      }
     }
   }
