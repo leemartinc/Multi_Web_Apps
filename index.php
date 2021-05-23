@@ -1,3 +1,1 @@
-<?php  
-require('index.html');
-?>
+<?php echo '<p>Hello World</p>'; ?> 
