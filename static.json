@@ -1,4 +1,10 @@
 {
     "root": "public",
-    "clean_urls": false
+    "clean_urls": false,
+    "redirects": {
+      "/": {
+        "url": "/index.html",
+        "status": 302
+      }
+    }
   }
